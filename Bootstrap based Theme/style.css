@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400|Montserrat:200,300,300i,400,400i,500,500i,700');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size:  0.9rem;
+	color: #161616;
+}
+nav, .dropdown-menu {
+	font-weight: 300;
+	font-size: 0.8rem;
+}
+.bg-verydark {
+	background-color:  #161616;
+}
+
+.category {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
+.category-name {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+article img {
+	width:  100%;
+}
+article .cat {
+	color: #C39F76;
+	font-weight: 400;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+
+}
+article .divider {
+  border-top:2px solid;
+  display: block;
+  max-width: 50px;
+  margin:  auto;
+}
+article .title {
+	font-weight:  400;
+	letter-spacing: 0.15rem;
+	font-size:  1.2rem;
+}
+
+article .content {
+	font-family: 'Lora', serif;
+	text-align:  left;
+	font-size: 0.9rem;
+}
+
+article .date {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	text-align:  left;
+	font-size: 0.8rem;
+}
+
+footer hr {
+	border-color: #313131;
+}
+
+footer p {
+	font-size: 0.8rem;
+}
