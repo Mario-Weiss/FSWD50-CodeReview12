@@ -1,0 +1,157 @@
+/*
+Theme Name: cr12_Mario_Weiss_traveler
+Theme URI: https://mario.codefactory.live/
+Author: Mario Weiss
+Author URI: https://mario.codefactory.live/
+Description: CodeReview12 Travel Blog Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: codefactory
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lora:400|Montserrat:200,300,300i,400,400i,500,500i,700');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size:  0.9rem;
+	color: #161616;
+	min-height: 100vh;
+}
+nav, .dropdown-menu {
+	font-weight: 300;
+	font-size: 0.8rem;
+}
+.bg-verydark {
+	background-color:  #161616;
+}
+
+.category {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
+.category-name {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+article img {
+	width:  100%;
+}
+article .cat a{
+	color: #C39F76;
+	font-weight: 400;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+}
+
+article .cat ul {
+	padding:  0;
+	list-style: none;
+	display:  flex;
+	flex-direction: row;
+	justify-content: center;
+}
+article .cat li {
+	margin: 0 0.4rem;
+}
+
+article .divider {
+  border-top:2px solid;
+  display: block;
+  max-width: 50px;
+  margin:  auto;
+}
+article .title {
+	font-weight:  400;
+	letter-spacing: 0.15rem;
+	font-size:  1.2rem;
+}
+article .title a, .next a{
+	color:  #161616;
+	text-decoration: none;
+}
+article .title a:hover, .next a:hover {
+	color: #666666;
+}
+
+article .content {
+	font-family: 'Lora', serif;
+	text-align:  left;
+	font-size: 0.9rem;
+}
+
+article .date {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	text-align:  left;
+	font-size: 0.8rem;
+}
+
+.tags a {
+	font-size:.6rem !important;
+	letter-spacing:.1rem;
+	text-transform:uppercase;
+	background:#f2f2f2;
+	color:#777;
+	padding:.5rem;
+	margin-right:.3rem;
+	margin-bottom:.5rem;
+	display:inline-block;
+	
+}
+.tags a:hover {
+	opacity:.7;
+	text-decoration:none;
+	background:#aaa;
+	color:#fff;
+}
+
+footer hr {
+	border-color: #313131;
+}
+
+footer p {
+	font-size: 0.8rem;
+}
+.widget {
+	margin-bottom:2.2rem;
+}
+.widget-title {
+	background:#161616;
+	text-align:center;
+	color:#fff;
+	padding:.8rem 0;
+	font-size:.7rem;
+	text-transform:uppercase;
+	letter-spacing:.1rem;
+	position: relative;
+	margin-bottom:1.5rem;
+}
+.widget-title:after {
+	content: "";
+	display: block;
+	position: absolute;
+	border-top: 0.4rem solid;
+	border-top-color:#161616;
+	border-right: 0.4rem solid transparent;
+	border-left: 0.4rem solid transparent;
+	bottom: -0.4rem;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -0.4rem;
+}
+.widget p {
+	font-size:0.8rem;
+	line-height:1.4rem;
+}
+.widget a:hover {
+	text-decoration:underline;
+}
+.widget img {
+	max-width:100%;
+	height:auto;
+}
